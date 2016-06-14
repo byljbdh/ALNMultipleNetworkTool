@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096CE2111D0D42C4003D31AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CE2101D0D42C4003D31AE /* main.m */; };
+		096CE2141D0D42C4003D31AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CE2131D0D42C4003D31AE /* AppDelegate.m */; };
+		096CE2171D0D42C4003D31AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CE2161D0D42C4003D31AE /* ViewController.m */; };
+		096CE21A1D0D42C4003D31AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096CE2181D0D42C4003D31AE /* Main.storyboard */; };
+		096CE21C1D0D42C4003D31AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096CE21B1D0D42C4003D31AE /* Assets.xcassets */; };
+		096CE21F1D0D42C4003D31AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096CE21D1D0D42C4003D31AE /* LaunchScreen.storyboard */; };
+		096CE22A1D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CE2291D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests.m */; };
+		096CE2351D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CE2341D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests.m */; };
+		096CE2461D0D434C003D31AE /* ALNMutipleNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CE2431D0D434C003D31AE /* ALNMutipleNetworkTool.m */; };
+		096CE2471D0D434C003D31AE /* ALNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 096CE2451D0D434C003D31AE /* ALNNetworkManager.m */; };
+		D268AB89562E737373EB2B2E /* libPods-ALNMultipleNetworkToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0406FCE488378B5C3DFC42 /* libPods-ALNMultipleNetworkToolDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		096CE2261D0D42C4003D31AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 096CE2041D0D42C3003D31AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096CE20B1D0D42C3003D31AE;
+			remoteInfo = ALNMultipleNetworkToolDemo;
+		};
+		096CE2311D0D42C4003D31AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 096CE2041D0D42C3003D31AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096CE20B1D0D42C3003D31AE;
+			remoteInfo = ALNMultipleNetworkToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096CE20C1D0D42C4003D31AE /* ALNMultipleNetworkToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALNMultipleNetworkToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		096CE2101D0D42C4003D31AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		096CE2121D0D42C4003D31AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		096CE2131D0D42C4003D31AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		096CE2151D0D42C4003D31AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		096CE2161D0D42C4003D31AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		096CE2191D0D42C4003D31AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		096CE21B1D0D42C4003D31AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		096CE21E1D0D42C4003D31AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		096CE2201D0D42C4003D31AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096CE2251D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALNMultipleNetworkToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096CE2291D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALNMultipleNetworkToolDemoTests.m; sourceTree = "<group>"; };
+		096CE22B1D0D42C4003D31AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096CE2301D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALNMultipleNetworkToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096CE2341D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALNMultipleNetworkToolDemoUITests.m; sourceTree = "<group>"; };
+		096CE2361D0D42C4003D31AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096CE2421D0D434C003D31AE /* ALNMutipleNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNMutipleNetworkTool.h; sourceTree = "<group>"; };
+		096CE2431D0D434C003D31AE /* ALNMutipleNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNMutipleNetworkTool.m; sourceTree = "<group>"; };
+		096CE2441D0D434C003D31AE /* ALNNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNNetworkManager.h; sourceTree = "<group>"; };
+		096CE2451D0D434C003D31AE /* ALNNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNNetworkManager.m; sourceTree = "<group>"; };
+		11167565ABA5E2BD04F092C9 /* Pods-ALNMultipleNetworkToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALNMultipleNetworkToolDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALNMultipleNetworkToolDemo/Pods-ALNMultipleNetworkToolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F04BC15AD88A33E0D74E64A5 /* Pods-ALNMultipleNetworkToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALNMultipleNetworkToolDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALNMultipleNetworkToolDemo/Pods-ALNMultipleNetworkToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FF0406FCE488378B5C3DFC42 /* libPods-ALNMultipleNetworkToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALNMultipleNetworkToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096CE2091D0D42C3003D31AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D268AB89562E737373EB2B2E /* libPods-ALNMultipleNetworkToolDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096CE2221D0D42C4003D31AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096CE22D1D0D42C4003D31AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096CE2031D0D42C3003D31AE = {
+			isa = PBXGroup;
+			children = (
+				096CE20E1D0D42C4003D31AE /* ALNMultipleNetworkToolDemo */,
+				096CE2281D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests */,
+				096CE2331D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests */,
+				096CE20D1D0D42C4003D31AE /* Products */,
+				E8399567BBF44D33C2AF67EB /* Pods */,
+				9A9ACBE0A31C2D3EAF9FE076 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		096CE20D1D0D42C4003D31AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				096CE20C1D0D42C4003D31AE /* ALNMultipleNetworkToolDemo.app */,
+				096CE2251D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests.xctest */,
+				096CE2301D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		096CE20E1D0D42C4003D31AE /* ALNMultipleNetworkToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				096CE2421D0D434C003D31AE /* ALNMutipleNetworkTool.h */,
+				096CE2431D0D434C003D31AE /* ALNMutipleNetworkTool.m */,
+				096CE2441D0D434C003D31AE /* ALNNetworkManager.h */,
+				096CE2451D0D434C003D31AE /* ALNNetworkManager.m */,
+				096CE2121D0D42C4003D31AE /* AppDelegate.h */,
+				096CE2131D0D42C4003D31AE /* AppDelegate.m */,
+				096CE2151D0D42C4003D31AE /* ViewController.h */,
+				096CE2161D0D42C4003D31AE /* ViewController.m */,
+				096CE2181D0D42C4003D31AE /* Main.storyboard */,
+				096CE21B1D0D42C4003D31AE /* Assets.xcassets */,
+				096CE21D1D0D42C4003D31AE /* LaunchScreen.storyboard */,
+				096CE2201D0D42C4003D31AE /* Info.plist */,
+				096CE20F1D0D42C4003D31AE /* Supporting Files */,
+			);
+			path = ALNMultipleNetworkToolDemo;
+			sourceTree = "<group>";
+		};
+		096CE20F1D0D42C4003D31AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				096CE2101D0D42C4003D31AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		096CE2281D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				096CE2291D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests.m */,
+				096CE22B1D0D42C4003D31AE /* Info.plist */,
+			);
+			path = ALNMultipleNetworkToolDemoTests;
+			sourceTree = "<group>";
+		};
+		096CE2331D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				096CE2341D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests.m */,
+				096CE2361D0D42C4003D31AE /* Info.plist */,
+			);
+			path = ALNMultipleNetworkToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		9A9ACBE0A31C2D3EAF9FE076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0406FCE488378B5C3DFC42 /* libPods-ALNMultipleNetworkToolDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8399567BBF44D33C2AF67EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F04BC15AD88A33E0D74E64A5 /* Pods-ALNMultipleNetworkToolDemo.debug.xcconfig */,
+				11167565ABA5E2BD04F092C9 /* Pods-ALNMultipleNetworkToolDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096CE20B1D0D42C3003D31AE /* ALNMultipleNetworkToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096CE2391D0D42C4003D31AE /* Build configuration list for PBXNativeTarget "ALNMultipleNetworkToolDemo" */;
+			buildPhases = (
+				3F6052B8BB98A5D41AB964EE /* [CP] Check Pods Manifest.lock */,
+				096CE2081D0D42C3003D31AE /* Sources */,
+				096CE2091D0D42C3003D31AE /* Frameworks */,
+				096CE20A1D0D42C3003D31AE /* Resources */,
+				5FE9D7F208E66DFE3B2CB7C6 /* [CP] Embed Pods Frameworks */,
+				1023EDAD49242CD269CD9D2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALNMultipleNetworkToolDemo;
+			productName = ALNMultipleNetworkToolDemo;
+			productReference = 096CE20C1D0D42C4003D31AE /* ALNMultipleNetworkToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		096CE2241D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096CE23C1D0D42C4003D31AE /* Build configuration list for PBXNativeTarget "ALNMultipleNetworkToolDemoTests" */;
+			buildPhases = (
+				096CE2211D0D42C4003D31AE /* Sources */,
+				096CE2221D0D42C4003D31AE /* Frameworks */,
+				096CE2231D0D42C4003D31AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096CE2271D0D42C4003D31AE /* PBXTargetDependency */,
+			);
+			name = ALNMultipleNetworkToolDemoTests;
+			productName = ALNMultipleNetworkToolDemoTests;
+			productReference = 096CE2251D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		096CE22F1D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096CE23F1D0D42C4003D31AE /* Build configuration list for PBXNativeTarget "ALNMultipleNetworkToolDemoUITests" */;
+			buildPhases = (
+				096CE22C1D0D42C4003D31AE /* Sources */,
+				096CE22D1D0D42C4003D31AE /* Frameworks */,
+				096CE22E1D0D42C4003D31AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096CE2321D0D42C4003D31AE /* PBXTargetDependency */,
+			);
+			name = ALNMultipleNetworkToolDemoUITests;
+			productName = ALNMultipleNetworkToolDemoUITests;
+			productReference = 096CE2301D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		096CE2041D0D42C3003D31AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ALN;
+				TargetAttributes = {
+					096CE20B1D0D42C3003D31AE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					096CE2241D0D42C4003D31AE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 096CE20B1D0D42C3003D31AE;
+					};
+					096CE22F1D0D42C4003D31AE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 096CE20B1D0D42C3003D31AE;
+					};
+				};
+			};
+			buildConfigurationList = 096CE2071D0D42C3003D31AE /* Build configuration list for PBXProject "ALNMultipleNetworkToolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 096CE2031D0D42C3003D31AE;
+			productRefGroup = 096CE20D1D0D42C4003D31AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096CE20B1D0D42C3003D31AE /* ALNMultipleNetworkToolDemo */,
+				096CE2241D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests */,
+				096CE22F1D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096CE20A1D0D42C3003D31AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096CE21F1D0D42C4003D31AE /* LaunchScreen.storyboard in Resources */,
+				096CE21C1D0D42C4003D31AE /* Assets.xcassets in Resources */,
+				096CE21A1D0D42C4003D31AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096CE2231D0D42C4003D31AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096CE22E1D0D42C4003D31AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1023EDAD49242CD269CD9D2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALNMultipleNetworkToolDemo/Pods-ALNMultipleNetworkToolDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6052B8BB98A5D41AB964EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE9D7F208E66DFE3B2CB7C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALNMultipleNetworkToolDemo/Pods-ALNMultipleNetworkToolDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096CE2081D0D42C3003D31AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096CE2171D0D42C4003D31AE /* ViewController.m in Sources */,
+				096CE2461D0D434C003D31AE /* ALNMutipleNetworkTool.m in Sources */,
+				096CE2141D0D42C4003D31AE /* AppDelegate.m in Sources */,
+				096CE2471D0D434C003D31AE /* ALNNetworkManager.m in Sources */,
+				096CE2111D0D42C4003D31AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096CE2211D0D42C4003D31AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096CE22A1D0D42C4003D31AE /* ALNMultipleNetworkToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096CE22C1D0D42C4003D31AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096CE2351D0D42C4003D31AE /* ALNMultipleNetworkToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096CE2271D0D42C4003D31AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096CE20B1D0D42C3003D31AE /* ALNMultipleNetworkToolDemo */;
+			targetProxy = 096CE2261D0D42C4003D31AE /* PBXContainerItemProxy */;
+		};
+		096CE2321D0D42C4003D31AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096CE20B1D0D42C3003D31AE /* ALNMultipleNetworkToolDemo */;
+			targetProxy = 096CE2311D0D42C4003D31AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		096CE2181D0D42C4003D31AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096CE2191D0D42C4003D31AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		096CE21D1D0D42C4003D31AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096CE21E1D0D42C4003D31AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096CE2371D0D42C4003D31AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		096CE2381D0D42C4003D31AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		096CE23A1D0D42C4003D31AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04BC15AD88A33E0D74E64A5 /* Pods-ALNMultipleNetworkToolDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ALNMultipleNetworkToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WY.ALNMultipleNetworkToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		096CE23B1D0D42C4003D31AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11167565ABA5E2BD04F092C9 /* Pods-ALNMultipleNetworkToolDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ALNMultipleNetworkToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WY.ALNMultipleNetworkToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		096CE23D1D0D42C4003D31AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ALNMultipleNetworkToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WY.ALNMultipleNetworkToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALNMultipleNetworkToolDemo.app/ALNMultipleNetworkToolDemo";
+			};
+			name = Debug;
+		};
+		096CE23E1D0D42C4003D31AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ALNMultipleNetworkToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WY.ALNMultipleNetworkToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALNMultipleNetworkToolDemo.app/ALNMultipleNetworkToolDemo";
+			};
+			name = Release;
+		};
+		096CE2401D0D42C4003D31AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ALNMultipleNetworkToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WY.ALNMultipleNetworkToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALNMultipleNetworkToolDemo;
+			};
+			name = Debug;
+		};
+		096CE2411D0D42C4003D31AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ALNMultipleNetworkToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WY.ALNMultipleNetworkToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALNMultipleNetworkToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096CE2071D0D42C3003D31AE /* Build configuration list for PBXProject "ALNMultipleNetworkToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096CE2371D0D42C4003D31AE /* Debug */,
+				096CE2381D0D42C4003D31AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096CE2391D0D42C4003D31AE /* Build configuration list for PBXNativeTarget "ALNMultipleNetworkToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096CE23A1D0D42C4003D31AE /* Debug */,
+				096CE23B1D0D42C4003D31AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096CE23C1D0D42C4003D31AE /* Build configuration list for PBXNativeTarget "ALNMultipleNetworkToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096CE23D1D0D42C4003D31AE /* Debug */,
+				096CE23E1D0D42C4003D31AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096CE23F1D0D42C4003D31AE /* Build configuration list for PBXNativeTarget "ALNMultipleNetworkToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096CE2401D0D42C4003D31AE /* Debug */,
+				096CE2411D0D42C4003D31AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 096CE2041D0D42C3003D31AE /* Project object */;
+}
